@@ -1,3 +1,5 @@
+/* eslint no-restricted-globals: ["error", "name", "length"] */
+
 // src/serviceWorker.js
 const CACHE_NAME = "my-cache-v1"; // Cambia el nombre del caché con cada nueva versión
 

@@ -1,7 +1,7 @@
 /* eslint no-restricted-globals: ["error", "name", "length"] */
 
 // src/serviceWorker.js
-const CACHE_NAME = "my-cache-v1.1"; // Cambia el nombre del caché con cada nueva versión
+const CACHE_NAME = "my-cache-v1.2"; // Cambia el nombre del caché con cada nueva versión
 
 self.addEventListener("install", event => {
   self.skipWaiting(); // Forzar que tome control inmediatamente
